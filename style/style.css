@@ -3,3 +3,11 @@
   --text-color: #757575;
   --titels-color: #212121;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
