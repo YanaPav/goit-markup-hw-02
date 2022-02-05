@@ -18,10 +18,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-}
-
-button {
-  font-family: inherit;
+  color: var(--titels-color);
 }
 
 .section-title {
@@ -30,7 +27,6 @@ button {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titels-color);
 }
 
 /* Header */
@@ -56,7 +52,7 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--titels-color);
+  color: inherit;
 }
 
 .header-contact-link {
@@ -71,6 +67,8 @@ button {
 .nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
 .current {
   color: var(--accent-color);
 }
@@ -91,6 +89,7 @@ button {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -100,8 +99,8 @@ button {
   background-color: var(--accent-color);
 }
 
-.btn:hover,
-.btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
 }
 
@@ -113,8 +112,8 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--titels-color);
 }
+
 .preferences-descr {
   font-weight: 400;
   font-size: 14px;
@@ -132,6 +131,7 @@ button {
 .team-subtitle {
   font-weight: 500;
   color: var(--titels-color);
+  /* Цвет текста указан отдельно, поскольку inherit берет синий цвет от ссылки, в которую вложен заголовок. Можно было отдельно через клас сброса стилей (link-reset) для ссылок добавить наследование текста, но я решила просто задать цвет точечно */
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -170,12 +170,13 @@ button {
 /* Section Portfolio */
 
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titels-color);
+  color: inherit;
   background-color: var(--light-background-color);
 }
 
@@ -191,6 +192,7 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--titels-color);
+  /* Цвет текста указан отдельно, поскольку inherit берет синий цвет от ссылки, в которую вложен заголовок. Можно было отдельно через клас сброса стилей (link-reset) для ссылок добавить наследование текста, но я решила просто задать цвет точечно */
 }
 
 .portfolio-descr {
