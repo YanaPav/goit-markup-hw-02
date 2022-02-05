@@ -22,7 +22,6 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -97,6 +96,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -107,7 +107,6 @@ body {
 /* Section Preferences */
 
 .preferences-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -115,7 +114,6 @@ body {
 }
 
 .preferences-descr {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,7 +136,6 @@ body {
 }
 
 .team-descr {
-  font-weight: 400;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -156,7 +153,6 @@ body {
 
 .footer-contact {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -178,6 +174,7 @@ body {
   letter-spacing: 0.03em;
   color: inherit;
   background-color: var(--light-background-color);
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
@@ -187,7 +184,6 @@ body {
 }
 
 .portfolio-subtitle {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -196,7 +192,6 @@ body {
 }
 
 .portfolio-descr {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
