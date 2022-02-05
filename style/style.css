@@ -17,6 +17,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
 }
 
 button {
@@ -89,7 +90,7 @@ button {
   color: var(--secondary-text-color);
 }
 
-.btn {
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -164,4 +165,38 @@ button {
 
 .footer-contact-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Section Portfolio */
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titels-color);
+  background-color: var(--light-background-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--titels-color);
+}
+
+.portfolio-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
